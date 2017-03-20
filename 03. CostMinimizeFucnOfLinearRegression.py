@@ -20,5 +20,4 @@ for i in range(-30, 50):
     cost_val.append(cur_cost)
 
 plt.plot(W_val, cost_val)
-
 plt.show()

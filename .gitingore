@@ -126,6 +126,6 @@ ENV/
 .ropeproject
 
 # Jupyter kernelspec
-config.json
+*.json
 
 # End of https://www.gitignore.io/api/macos,python
