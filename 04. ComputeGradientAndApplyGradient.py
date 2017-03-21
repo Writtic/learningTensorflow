@@ -6,7 +6,7 @@ W = tf.Variable(5.)
 
 # Custom gradient descent optimizer
 hypothesis = X * W
-gradient = tf.reduce_mean((W * X - Y) * X) * 2 # derivative
+gradient = tf.reduce_mean((W * X - Y) * X) * 2  # derivative
 cost = tf.reduce_mean(tf.square(hypothesis - Y))
 
 # Tensorflow's gradient descent optimizer
