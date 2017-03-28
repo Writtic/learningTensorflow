@@ -27,8 +27,8 @@ sess = tf.Session()
 # tf.Variable을 사용하기 위해선 꼭 tf.global_variables_initializer() 로 초기화
 sess.run(tf.global_variables_initializer())
 
-temp_x = [1, 2, 3, 4, 5]
-temp_y = [2.1, 3.1, 4.1, 5.1, 6.1]
+temp_x = [, 2, 3, 4, 5]
+temp_y = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for step in xrange(2001):
     # sess.run(train)
